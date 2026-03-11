@@ -1,6 +1,11 @@
 O Código abaixo é a criação de rotas para acessar páginas html em 
 diferentes arquivos
 
+// Toda vez que for rodas o código e necessitar instalar o pacote node module, basta dar o comando npm install ou npm i
+// Após baixar o pacote node module, basta dar o comando npm run dev e abrir o seu projeto 
+// Esse passo a passo só é preciso em caso de baixar o código sem o pacote node module
+
+
 import express, {response} from "express";
 import {request} from "http";
 import path from "path";
